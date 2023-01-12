@@ -12,6 +12,7 @@ public class Main {
         String password=sc.next();
         //SBIUser sbi=new SBIUser(name,balance,password);
         HDFCUser hdfc=new HDFCUser(name,balance,password);
+        System.out.println(hdfc.getAccNo());
 
         //addmoney
         System.out.println("enter the amount you want to add");
